@@ -1,0 +1,28 @@
+{
+  "name": "graphql-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon",
+    "json_server": "json-server --watch data.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkMatute/graphql-server.git"
+  },
+  "author": "Mark Matute",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarkMatute/graphql-server/issues"
+  },
+  "homepage": "https://github.com/MarkMatute/graphql-server#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "json-server": "^0.12.1"
+  }
+}
